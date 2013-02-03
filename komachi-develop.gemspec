@@ -22,6 +22,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'tapp'
   gem.add_dependency 'awesome_print'
   gem.add_dependency 'hirb-unicode'
+  gem.add_dependency 'pry-stack_explorer'
 
   # gem.add_dependency 'view_source_map'
   # gem.add_dependency 'zeus'
