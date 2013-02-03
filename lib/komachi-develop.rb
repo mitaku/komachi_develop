@@ -1,3 +1,4 @@
+require 'komachi-develop/railtie'
 require "komachi-develop/version"
 require 'pry-rails'
 require 'komachi-develop/pry-extension'
