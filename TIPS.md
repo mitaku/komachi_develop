@@ -45,3 +45,8 @@
 
 ### `hist`
 
+## ログ
+- `/assets`配下のログが邪魔なので排除
+ - `lib/quiet_assets.rb`にて対応
+- `WARN  Could not determine content-length of response body. Set content-length of the response or set Response#chunked = true`
+ - Webrickのバグらしい。thinにすることで解消

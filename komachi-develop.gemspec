@@ -17,12 +17,13 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
   gem.add_dependency 'pry-rails'
+  gem.add_dependency 'pry-stack_explorer'
+  gem.add_dependency 'hirb-unicode'
   gem.add_dependency 'better_errors'
   gem.add_dependency 'binding_of_caller'
   gem.add_dependency 'tapp'
   gem.add_dependency 'awesome_print'
-  gem.add_dependency 'hirb-unicode'
-  gem.add_dependency 'pry-stack_explorer'
+  gem.add_dependency 'thin'
 
   # gem.add_dependency 'view_source_map'
   # gem.add_dependency 'zeus'
