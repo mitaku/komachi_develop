@@ -5,7 +5,7 @@ require 'komachi-develop/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "komachi-develop"
-  gem.version       = Komachi::Develop::VERSION
+  gem.version       = KomachiDevelop::VERSION
   gem.authors       = ["Takumi MIURA"]
   gem.email         = ["mitaku1104@gmail.com"]
   gem.description   = %q{TODO: Write a gem description}
@@ -19,6 +19,9 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'pry-rails'
   gem.add_dependency 'better_errors'
   gem.add_dependency 'binding_of_caller'
+  gem.add_dependency 'tapp'
+  gem.add_dependency 'awesome_print'
+
   # gem.add_dependency 'view_source_map'
   # gem.add_dependency 'zeus'
   # gem.add_dependency 'annotate'

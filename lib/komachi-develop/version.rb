@@ -1,5 +1,3 @@
-module Komachi
-  module Develop
-    VERSION = "0.0.1"
-  end
+module KomachiDevelop
+  VERSION = "0.0.1"
 end
