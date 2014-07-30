@@ -1,7 +1,6 @@
-#!/usr/bin/env ruby
-# -*- coding: utf-8 -*-
-
-require 'pry'
+require 'pry-rails'
+require 'pry-rescue'
+require 'pry-stack_explorer'
 
 KomachiDevelop::PryExtension = Pry::CommandSet.new
 command_glob = File.expand_path('../pry-extension/*.rb', __FILE__)

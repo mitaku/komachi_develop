@@ -1,6 +1,3 @@
-#!/usr/bin/env ruby
-# -*- coding: utf-8 -*-
-
 KomachiDevelop::PryExtension.create_command "caller_method" do
   def process
     depth = args.first.to_i || 1
