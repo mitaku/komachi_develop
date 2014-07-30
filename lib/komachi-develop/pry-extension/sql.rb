@@ -1,6 +1,3 @@
-#!/usr/bin/env ruby
-# -*- coding: utf-8 -*-
-
 KomachiDevelop::PryExtension.create_command "sql", "Send sql over AR." do
   def process
     query = args.join(" ")
