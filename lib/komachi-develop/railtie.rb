@@ -1,2 +1,4 @@
-class KomachiDevelop::Railtie < ::Rails::Railtie
+module KomachiDevelop
+  class Railtie < ::Rails::Railtie
+  end
 end
