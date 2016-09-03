@@ -45,6 +45,3 @@
 
 ### `hist`
 
-## ログ
-- `/assets`配下のログが邪魔なので排除
- - `quiet_assets` gemで対応

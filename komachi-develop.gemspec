@@ -16,14 +16,13 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
-  gem.add_dependency 'rails', '>= 4.0'
+  gem.add_dependency 'rails', '>= 5.0'
   gem.add_dependency 'pry-rails'
   gem.add_dependency 'pry-stack_explorer'
   gem.add_dependency 'pry-rescue'
   gem.add_dependency 'better_errors'
   gem.add_dependency 'binding_of_caller'
   gem.add_dependency 'tapp-awesome_print'
-  gem.add_dependency 'quiet_assets'
   gem.add_dependency 'bullet'
 
   # gem.add_dependency 'view_source_map'
